@@ -1,3 +1,8 @@
 # prefix_sum_parallel
 
-Serial and Parallel implementation of the prefix sum of an array using OpenMP
+Parallel implementation of the prefix sum of an array using OpenMP
+
+To run
+
+$ g++ main.cpp prefixsum.cpp -fopenmp -g
+$ ./a.out
